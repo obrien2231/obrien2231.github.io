@@ -7,7 +7,5 @@ font-size: 20px; }
 #accomplishments { color: blue; }
 ul {text-align: left; !important;}
 body {background-image: url("STL.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  backgound-position: center center:
+  background-size: 400px auto, cover;
 }
