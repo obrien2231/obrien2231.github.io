@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link href="PortfolioWebsiteStyle.css" type="text/css" rel="stylesheet">
+	  <title>Accomplishments</title>
+  </head>
+  <body>
+    <h2>My Acomplishments</h2>
+	  <div class=info>
+	    <ul id="accomplishments">
+	      <li>2018 Graduate of Christian Brothers College High School</li>
+		  <li>FGCU Blue & Green scholarship recpient</li>
+	    </ul>
+	  </div>
+       <div>
+		<svg height="130" width="500">
+           <Defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%"
+              style="stop-color:rgb(17,77,173);stop-opacity:1" />
+             <stop offset="100%"
+              style="stop-color:rgb(37,107,0);stop-opacity:1" />
+             </linearGradient>
+            </defs>
+           <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+           <text fill="#ffffff" font-size="45" font-family="Verdana"
+            x="40" y="86">FGCU</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+	  </div>
+      <div class=info>
+		<canvas id="myCanvas" width="550" height="100">
+          Your browser does not support the HTML5 canvas tag.</canvas>
+
+          <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "30px Arial";
+            ctx.strokeText("Thanks for visiting my portfolio website!",10,50);
+          </script>
+	  </div>
+  </body>
+</html>
