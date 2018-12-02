@@ -1,69 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
 	<link href="PortfolioWebsiteStyle.css" type="text/css" rel="stylesheet">
 	  <title>Padraig O'Brien's Portfolio Website</title>
   </head>
-  <body>
+  <body id=body1>
     <h1>Hi I am Padraig O'Brien, Welcome to my Portfolio website!</h1><br>
     <a href="https://www.fgcu.edu/" target="_blank" alt="FGCU Logo">
     <img id="logo" src="https://www.fgcu.edu/_resources/images/logo-blue@2x.png" >
     </a>
-    <h2 id="aboutme">About Me</h2>
-	  <div class=info> 
-	    <P>My name is Padraig O'Brien, and I am from Saint Louis, Missouri. I am pursuing
-	    a software enginnering degree from Florida Gulf Coast university, as well as multiple minors.</p>
-		<p>Away from school and the computer I am an avid sports fan, as well as spend a majority of my time with my friends, family, and dog
-		<p>My hobbies include working out, playing with my dog, taking my truck off-roading, and video games.<p><br>
-		<video width="320" height="240" controls>
-          <source src="Memphis_Large.mp4" type="video/mp4">
-           Your browser does not support the video tag.
-        </video>
-	  </div>
-	  
-	<h2>Software Engineering Courses Taken</h2>
-	  <div class=info>
-	    <ul>
-	      <li>Intro to computer science</li>
-	    </ul>
-	  </div>
-	<h2>Previous Works</h2>
-	  <div>
-	    <ul>
-	      <li><a href="https://scratch.mit.edu/projects/243574279/">Scratch Project</a></li>
-	      <li><a href="Fields+Report.pdf">Fields Report</a>
-	    </ul>
-	  </div>
-	<h2>My Acomplishments</h2>
-	  <div class=info>
-	    <ul id="accomplishments">
-	      <li>2018 Graduate of Christian Brothers College High School</li>
-		  <li>FGCU Blue & Green scholarship recpient</li>
-	    </ul>
-	  </div>
-	  <div>
-		<svg height="130" width="500">
-           <Defs>
-              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%"
-              style="stop-color:rgb(17,77,173);stop-opacity:1" />
-             <stop offset="100%"
-              style="stop-color:rgb(37,107,0);stop-opacity:1" />
-             </linearGradient>
-            </defs>
-           <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
-           <text fill="#ffffff" font-size="45" font-family="Verdana"
-            x="40" y="86">FGCU</text>
-            Sorry, your browser does not support inline SVG.
-        </svg>
-	  </div>
-	<h2>Other Profiles</h2>
-	  <div class=info>
-	    <ul>
-	      <li><a href="https://www.codecademy.com/Obrien2231" target="_blank"> Academy</a></li>
-		  <li><a href="https://github.com/obrien2231" target="_blank"> GitHub</li>
-	    </ul>
-	    <audio controls>
+    <div class=buttons>
+      <a href="AboutMe.html" class="button1">About Me</a>
+      <a href="PreviousWorks.html" class="button1">Previous Works</a>
+      <a href="Accomplishments.html" class="button1">Acomplishments</a>
+      <a href="OtherProfiles.html" class="button1">Other Profiles</a>
+      <a href="Usability.html" class="button1">Usability</a>
+    </div>
+  </body>
+  <footer>
+      <div class=info>
+	    <audio id=audio controls>
 	      <source src="Intro.mp3" type="audio/mpeg">
 		  </audio><br>
 	  </div>
@@ -78,5 +34,5 @@
             ctx.strokeText("Thanks for visiting my portfolio website!",10,50);
           </script>
 	  </div>
-  </body>
+    </footer>
 </html>
